@@ -1,0 +1,149 @@
+* {box-sizing: border-box}
+
+/*styling top navigation bar */
+nav {
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #aa0404;
+    width: 100%;
+}
+  
+/*styling topnav links */
+nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/*change color on hover*/
+nav a:hover {
+    background-color: #a95656;
+    color: black;
+}
+
+.topnav-right {
+    float: right;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Add padding to containers */
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 16px;
+    background: #D3D3D3;
+    border-radius: 25px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password],input[type=number], #cat{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.btn {
+    border-radius: 25px;
+    background-color: #aa0404;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity:1;
+}
+
+/* Style button links */
+.btn a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.login {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/*Style the search tables */
+#search {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#search td, #search th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#search th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #aa0404;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/*styling footer*/
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: #aa0404;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/*Style pagination links*/
+.page a {
+    float: left;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    background-color: #a95656;
+    opacity:1;
+}
+
+.page {
+    background-color: #aa0404;
+    display: inline-block;
+}
+
